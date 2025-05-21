@@ -15,15 +15,12 @@ Remover itens ao tocar sobre eles
 Armazenamento local utilizando SQLite nativo, garantindo que os dados persistam mesmo após fechar o app
 
 🧠 Estrutura do Código
-A MainActivity é a classe principal responsável por:
 
-Carregar o layout principal da aplicação (activity_main.xml)
-
-Inicializar a Toolbar com o título "Lista de Compras"
-
-Gerenciar os componentes de interface como EditText, Button e RecyclerView
-
-Conectar o RecyclerView ao ItemsAdapter, que exibe a lista de itens
+- A MainActivity é a classe principal responsável por:
+- Carregar o layout principal da aplicação (activity_main.xml)
+- Inicializar a Toolbar com o título "Lista de Compras"
+- Gerenciar os componentes de interface como EditText, Button e RecyclerView
+- Conectar o RecyclerView ao ItemsAdapter, que exibe a lista de itens
 
 Utilizar o ViewModel (ItemsViewModel) para manter a lógica de negócios separada da UI, seguindo os princípios de arquitetura recomendados
 
